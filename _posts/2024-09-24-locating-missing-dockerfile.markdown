@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Locating Missing Dockerfile"
-date:   {{ site.time | date: '%B %d, %Y' }}
+date:   {{ "now" | date: "%Y-%m-%d %H:%M" }}
 categories: update
 ---
 
