@@ -18,21 +18,7 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-<script src="https://giscus.app/client.js"
-        data-repo="joseph-cz/joseph-cz.github.io"
-        data-repo-id="R_kgDOMxfH7A"
-        data-category="General"
-        data-category-id="DIC_kwDOMxfH7M4Ciwxp"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
