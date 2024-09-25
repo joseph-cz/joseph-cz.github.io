@@ -3,6 +3,7 @@ layout: post
 title:  "Locating Missing Dockerfile"
 date:   2024-09-24 02:52:32 +0000
 categories: docker
+comments: true
 ---
 
 Can't find Dockerfile even though it's there?
